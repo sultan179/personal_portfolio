@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function Index() {
   return (
     <BrowserRouter>
-      <Navbar />
+      
     
       <Routes>
         <Route path="/" element={<Home />}></Route>
