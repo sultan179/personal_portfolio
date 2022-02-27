@@ -34,7 +34,7 @@ function Home() {
                 <tr>
                   <td>Javascript</td>
                   <td>ReactJs</td>
-                  <td>Haskell</td>
+                  <td>PHP</td>
                 </tr>
               </table>
             </div>
