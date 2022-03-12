@@ -12,10 +12,10 @@ function Index() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/" exact element={<Home />}></Route>
 
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/work" element={<Work />}></Route>
+        <Route path="/about" exact element={<About />}></Route>
+        <Route path="/work" exact element={<Work />}></Route>
       </Routes>
     </BrowserRouter>
   );

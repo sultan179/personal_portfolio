@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 function Navbar() {
@@ -23,7 +23,7 @@ function Navbar() {
           </li>
 
           <li>
-            <a href="/pdfs/Resume.pdf">Resume</a>
+            <a href={process.env.PUBLIC_URL + "/pdfs/Resume.pdf"}>Resume</a>
           </li>
         </ul>
       </nav>
@@ -31,4 +31,4 @@ function Navbar() {
   );
 }
 
-export default Navbar
+export default Navbar;
