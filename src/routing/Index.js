@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function Index() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/personal_portfolio">
       <Navbar />
 
       <Routes>
