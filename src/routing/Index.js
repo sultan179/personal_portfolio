@@ -7,7 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function Index() {
   return (
-    <BrowserRouter basename="/personal_portfolio">
+    // <BrowserRouter basename="/personal_portfolio">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
 
       <Routes>
